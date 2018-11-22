@@ -18,7 +18,7 @@ int main(){
 	scanf(" %d ", &n);
 	
 	for(i=0, bad=0, good=0; i<n; i++){
-		scanf(" %c %s ", &c, vetor[i].nome);
+		scanf(" %c %s", &c, vetor[i].nome);
 		if(c == '+')
 			good++;
 		else
